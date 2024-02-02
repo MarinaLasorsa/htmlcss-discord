@@ -22,7 +22,7 @@ a {
 /*LAYOUT RULES*/
 
 .container {
-    max-width: 900px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 
@@ -75,7 +75,8 @@ a {
 
 header {
     background-color: #3161E0;
-    color: white
+    color: white;
+    padding: 20px 0
 }
 
 .button-white {
@@ -128,6 +129,32 @@ header {
     border-radius: 20px;
     vertical-align: middle;
 }
+
+.container-paragraph {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.col-40 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.paragraph-title {
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.paragraph-text {
+    line-height: 20px;
+}
+
+.background-grey {
+    background-color: rgb(239, 239, 239);
+}
+
 
 /*DEBUG*/
 
