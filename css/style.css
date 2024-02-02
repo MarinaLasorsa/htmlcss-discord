@@ -3,6 +3,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: Arial;
 }
 
 ul,ol, menu {
@@ -39,6 +40,7 @@ a {
 .nav .link-bar {
     display: flex;
     align-items: center;
+    gap: 20px;
 }
 
 .nav .row {
@@ -68,6 +70,30 @@ a {
 .justify-between {
     justify-content: space-between
 }
+
+/*HEADER*/
+
+header {
+    background-color: #3161E0;
+    color: white
+}
+
+.button-white {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 20px;
+}
+
+.row header {
+    text-align: center;
+}
+
+.logo {
+    text-align: center;
+    height: 35px;
+}
+
 
 /*DEBUG*/
 
