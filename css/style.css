@@ -214,82 +214,22 @@ footer {
     line-height: 30px;
 }
 
+.blue-line {
+    color: #6D83D1;
+}
 
-/*DEBUG*/
-
-.debug .container {
-    border: 2px solid rgb(227, 45, 87);
+.button-blue-small {
     padding: 10px;
+    background-color: #8EA1E1;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    vertical-align: middle;
 }
 
-.debug .section {
-    padding: 20px 0;
+.footer-row-padding-bottom {
+    padding-bottom: 30px;
 }
 
-.debug .row {
-    border: 2px solid rgb(147, 147, 147);
-    padding: 10px;
-}
-
-.debug main .row {
-    min-height: 300px;
-}
-
-.debug .column {
-    border: 2px solid black;
-    padding: 10px;
-}
-
-.debug .col-bottom {
-    min-height: 500px;
-}
-
-.debug .col-footer {
-    min-height: 400px;
-}
-
-/*STYLES*/
-
-.debug .background-blue {
-    background-color: rgb(151, 255, 255);
-}
-
-.debug .background-pink {
-    background-color: rgb(248, 168, 255);
-}
-
-.debug .background-purple {
-    background-color: rgb(179, 64, 214);
-}
-
-.debug .background-darkblue {
-    background-color: rgb(29, 62, 146);
-}
-
-.debug .background-grey {
-    background-color: rgb(218, 218, 218);
-}
-
-.debug .background-orange {
-    background-color: rgb(252, 142, 57);
-}
-
-.debug .background-yellow {
-    background-color: rgb(252, 229, 57);
-}
-
-.debug .background-red {
-    background-color: rgb(239, 80, 59);
-}
-
-.debug .background-green {
-    background-color: rgb(139, 232, 96);
-}
-
-.debug .background-lilac {
-    background-color: rgb(189, 148, 202);
-}
-
-.debug .background-darkgreen {
-    background-color: rgb(61, 137, 88);
+.footer-row-padding-top {
+    padding-top: 40px;
 }
