@@ -57,6 +57,12 @@ a {
 
 .col-33 {
 	width: calc(100% / 3);
+    padding-right: 50px;
+}
+
+.col-33 ul {
+	display: flex;
+    gap: 20px;
 }
 
 .col-1-6 {
@@ -131,8 +137,8 @@ header {
 }
 
 .container-paragraph {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 60px;
+    padding-bottom: 70px;
 }
 
 .col-40 {
@@ -176,6 +182,36 @@ header {
     color: rgb(255, 255, 255);
     border-radius: 25px;
     vertical-align: middle;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #23272A;
+    padding: 50px 0;
+}
+
+.footer-title {
+    font-size: 28px;
+    color: #6D83D1;
+}
+
+.footer-text {
+    color: #ffffff;
+    margin: 20px 0;
+}
+
+.flag-image {
+    width: 20px;
+}
+
+.footer-link-list-title {
+    color: #6D83D1;
+}
+
+.footer-list {
+    color: #ffffff;
+    line-height: 30px;
 }
 
 
@@ -248,10 +284,6 @@ header {
 
 .debug .background-green {
     background-color: rgb(139, 232, 96);
-}
-
-.debug .background-black {
-    background-color: rgb(59, 59, 59);
 }
 
 .debug .background-lilac {
